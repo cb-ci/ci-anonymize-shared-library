@@ -208,7 +208,7 @@ Triage:
 Regex and scanners miss context. Review the output for:
 
 - [ ] Comments, Javadoc and Groovydoc (names, ticket links, internal wiki URLs)
-- [ ] Non-English text (for example Italian error messages and comments that name the customer)
+- [ ] Non-English text (for example error messages and comments that name the customer)
 - [ ] `resources/` files: shell scripts, YAML, JSON, pod templates, Dockerfiles, `.properties`
 - [ ] Hardcoded IDs: Jenkins credential IDs, Slack channels, Jira project keys, Sonar project keys
 - [ ] Registry, cluster, namespace, bucket and node-label names that identify the customer
